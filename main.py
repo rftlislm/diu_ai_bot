@@ -33,8 +33,8 @@ def run_flow(input_message):
         raise Exception(f"Error: {response.status_code}, {response.text}")
 
 # Streamlit app setup
-st.set_page_config(page_title="DIU support bot", layout="wide")
-st.title("DIU support bot")
+st.set_page_config(page_title="DIU AI Agent", layout="wide")
+st.title("DIU AI Agent")
 
 # Initialize session state for messages
 if "messages" not in st.session_state:
