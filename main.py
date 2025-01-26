@@ -3,8 +3,8 @@ import requests
 
 # Replace with your actual Langflow ID, Flow ID, and Application Token
 LANGFLOW_ID = "3278e481-dd28-492a-8c30-904134e8a833"
-FLOW_ID = "21036c4a-4504-4283-b7eb-d7d00ac65ca9"
-APPLICATION_TOKEN = "AstraCS:MYBBFYSKIkCoLtjLHhjbpCpe:5d50e38281ae1ab55c2645390e1af9738e7092f9b710f536e9725ffd22a9e682"
+FLOW_ID = "a13eaabc-7ccb-4c8e-b6ad-f8fb9b4925c4"
+APPLICATION_TOKEN = "AstraCS:wZWkenSXjOjbpWWrftxzGpWW:b5a9cd710858f412eddde3423692566984efe3b09fb5dc9711bb378eef3680b6"
 
 # Base URL for the Langflow API
 BASE_API_URL = f"https://api.langflow.astra.datastax.com/lf/{LANGFLOW_ID}/api/v1/run/{FLOW_ID}"
